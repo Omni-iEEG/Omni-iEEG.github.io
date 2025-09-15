@@ -2,7 +2,7 @@
 layout: about
 title: Projects
 permalink: /
-subtitle: iEEG @ UCLA Roychowdhury Lab | Bridging AI and Neuroscience
+subtitle: iEEG Research @ UCLA Roychowdhury Lab | Bridging AI and Neuroscience
 display_categories:
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
