@@ -1,1 +1,1 @@
-This is the website for the iEEG @ UCLA Roychowdhury Lab.
+This is the website for the series of work from iEEG Research @ UCLA Roychowdhury Lab.
