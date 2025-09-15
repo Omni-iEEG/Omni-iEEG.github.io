@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://omni-ieeg.github.io//sitemap.xml
