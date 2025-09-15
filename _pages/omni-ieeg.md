@@ -22,6 +22,7 @@ institutions:
   - {name: "University of California, Los Angeles <sup>*</sup> Equal Contribution"}
 nav: false
 nav_order: 1
+dataset_link: https://huggingface.co/datasets/roychowdhuryresearch/Omni-iEEG/tree/main
 code_link: https://github.com/roychowdhuryresearch/Omni-iEEG/tree/main
 # pdf_link:   # omit if you don't have one yet
 ---

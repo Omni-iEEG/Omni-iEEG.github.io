@@ -190,17 +190,17 @@
         </div>
 
         <!-- Hidden abstract block -->
-        <!--    {% if entry.abstract %}-->
-        <!--    <div class="abstract hidden">-->
-        <!--      <p>{{ entry.abstract }}</p>-->
-        <!--    </div>-->
-        <!--    {% endif %}-->
+        {% if entry.abstract %}
+        <div class="abstract hidden">
+          <p>{{ entry.abstract }}</p>
+        </div>
+        {% endif %}
 
         <!-- Hidden bibtex block -->
-        <!--    {% if entry.bibtex_show %}-->
-        <!--    <div class="bibtex hidden">-->
-        <!--      {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}-->
-        <!--    </div>-->
-        <!--    {% endif %}-->
+        {% if entry.bibtex_show %}
+        <div class="bibtex hidden">
+          {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
+        </div>
+        {% endif %}
     </div>
 </div>
