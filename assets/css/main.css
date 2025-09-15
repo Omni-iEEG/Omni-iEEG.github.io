@@ -1495,13 +1495,13 @@ nav[data-toggle=toc] .nav-link.active:hover {
   margin-bottom: 5px;
 }
 
-.bibtex {
+div.bibtex {
   margin: 0 auto;
   width: 100%;
   max-width: 750px; /* Adjust based on your site's actual style if needed */
 }
 
-.bibtex pre {
+div.bibtex pre {
   background-color: #f8f8f8;
   padding: 15px;
   border: 1px solid #e0e0e0;
