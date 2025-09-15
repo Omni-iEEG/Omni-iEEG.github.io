@@ -15,7 +15,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🚘️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧠️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://omni-ieeg.github.io/ # the base hostname & protocol for your site
 baseurl: ""  # the subpath of your site, e.g. /blog/ (use "" for root)
@@ -240,8 +240,10 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
   - jekyll-redirect-from
+  - jekyll-scholar
 # Learn more from: https://github.com/jekyll/jekyll-redirect-from
-
+scholar:
+  bibliography: _bibliography/papers.bib   # adjust to your path
 # Sitemap settings
 defaults:
   - scope:
