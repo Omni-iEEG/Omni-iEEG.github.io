@@ -5,6 +5,7 @@ title: "Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for E
 page_title: "Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy Research"
 redirect_from:
   - /omni-ieeg
+description: "<h3 style='color:red'>ICLR 2026</h3>"
 authors:
   - {name: "Chenda Duan<sup>*</sup>", url: "https://chendaduan.com/"}
   - {name: "Yipeng Zhang<sup>*</sup>", url: "#"}
