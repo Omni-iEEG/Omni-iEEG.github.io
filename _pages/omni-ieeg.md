@@ -8,24 +8,24 @@ redirect_from:
 description: "<h3 style='color:red'>ICLR 2026</h3>"
 authors:
   - {name: "Chenda Duan<sup>*</sup>", url: "https://chendaduan.com/"}
-  - {name: "Yipeng Zhang<sup>*</sup>", url: "#"}
-  - {name: "Sotaro Kanai", url: "#"}
-  - {name: "Yuanyi Ding", url: "#"}
-  - {name: "Atsuro Daida", url: "#"}
+  - {name: "Yipeng Zhang<sup>*</sup>", url: "https://scholar.google.com/citations?user=VESaC8wAAAAJ&hl=en"}
+  - {name: "Sotaro Kanai", url: "https://nariailab.dgsom.ucla.edu/people/sotaro-kanai-md-phd"}
+  - {name: "Yuanyi Ding", url: "https://www.linkedin.com/in/yuanyi-ding-4a981a132/"}
+  - {name: "Atsuro Daida", url: "https://scholar.google.com/citations?user=HN3W_xwAAAAJ&hl=en"}
   - {name: "Pengyue Yu", url: "#"}
   - {name: "Tiancheng Zheng", url: "#"}
   - {name: "Naoto Kuroda", url: "#"}
   - {name: "Shaun A. Hussain", url: "#"}
   - {name: "Eishi Asano", url: "#"}
-  - {name: "Hiroki Nariai", url: "#"}
+  - {name: "Hiroki Nariai", url: "https://www.uclahealth.org/providers/hiroki-nariai"}
   - {name: "Vwani Roychowdhury", url: "https://www.vwaniroychowdhury.com/"}
 institutions:
   - {name: "University of California, Los Angeles <sup>*</sup> Equal Contribution"}
 nav: false
 nav_order: 1
-dataset_link: https://huggingface.co/datasets/roychowdhuryresearch/Omni-iEEG/tree/main
-code_link: https://github.com/roychowdhuryresearch/Omni-iEEG/tree/main
-# pdf_link:   # omit if you don't have one yet
+# dataset_link: https://huggingface.co/datasets/roychowdhuryresearch/Omni-iEEG/tree/main
+# code_link: https://github.com/roychowdhuryresearch/Omni-iEEG/tree/main
+pdf_link:  https://openreview.net/forum?id=rv9lQpY5cG # omit if you don't have one yet
 ---
 
 
@@ -126,7 +126,17 @@ video {
   border-radius: 8px;
 }
 
+.announcement-banner {
+  color: red;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 </style>
+<div class="research-section announcement-banner">
+    <strong>Official Dataset, Codebase, and Benchmarks are coming, stay tuned!</strong> 
+</div>
 
 <div class="img-container" style="margin: auto;">
   <img src="{{ '/assets/img/omniieeg/omniieeg.png' | relative_url }}" alt="Omni-iEEG teaser">
@@ -139,7 +149,7 @@ video {
     <strong>TL;DR: </strong> 
     Omni-iEEG is the first <strong>large-scale, harmonized intracranial EEG dataset</strong>, 
     comprising <strong>302 patients, 178 hours of recordings, and 36K expert annotations</strong>. 
-    It establishes <strong>clinically meaningful benchmarks</strong> with standardized evaluation 
+    It establishes <strong>clinically meaningful and unified benchmarks</strong> with standardized evaluation 
     metrics to bridge <strong>clinical neuroscience</strong> and <strong>machine learning</strong>.
   </ul>
 </div>
@@ -151,8 +161,8 @@ video {
   </div>
   <p>
     Omni-iEEG integrates recordings from eight epilepsy centers with harmonized clinical metadata 
-    (SOZ, resection regions, surgical outcomes, anatomical labels). Data are released in 
-    <strong>BIDS format</strong> with an accompanying utility library.
+    (SOZ, resection regions, surgical outcomes, anatomical labels). Data will be released in 
+    <strong>BIDS format</strong> with an accompanying utility library on Github. We will also released the data in hugginface for easier access.
   </p>
 </div>
 
@@ -190,7 +200,7 @@ video {
     <img src="../assets/img/omniieeg/table4_result.png">
   </div>
   <p>
-    We benchmark CNN, LSTM, Transformer, and TimesNet. CNN achieves the highest F1 (0.81), 
+    We benchmark recent competitive baseline event classification methods. PyHFO method trained on Omni-iEEG achieves the highest F1 (~0.81), 
     demonstrating strong performance on spkHFO detection.
   </p>
 </div>
@@ -201,7 +211,7 @@ video {
     <img src="../assets/img/omniieeg/table5_result.png">
   </div>
   <p>
-    Both event-based and segment-based models are evaluated. Segment models (CNN, AST, CLAP, SEEG-Net) 
+    Both event-based and segment-based models are evaluated. Segment models (TimeConv-CNN, CLAP, SEEG-Net) 
     achieve up to <strong>0.81 AUC</strong> in pathological channel identification and correlate well with 
     surgical outcome prediction.
   </p>
@@ -235,11 +245,11 @@ video {
 
 <div class="research-section">
   <h3 style="text-align: center">Reference</h3>
-<pre><code>@article{2025omniieeg,
+<pre><code>@inproceedings{duan2026omniieeg,
   title={Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy Research},
   author={Duan, Chenda and Zhang, Yipeng and Kanai, Sotaro and Ding, Yuanyi and Daida, Atsuro and Yu, Pengyue and Zheng, Tiancheng and Kuroda, Naoto and Hussain, Shaun A. and Asano, Eishi and Nariai, Hiroki and Roychowdhury, Vwani},
-  journal={arXiv},
-  year={2025}
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026}
 }
 </code></pre>
 </div>

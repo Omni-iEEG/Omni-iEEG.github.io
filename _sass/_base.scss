@@ -326,6 +326,13 @@ blockquote {
   .navbar-brand img.navbar-logo {
     height: 56px;
     margin-left: -100px;
+    max-width: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .navbar-brand img.navbar-logo {
+      margin-left: 0;
+    }
   }
 
   .navbar-brand.social {
@@ -1264,6 +1271,7 @@ nav[data-toggle="toc"] {
 }
 
 .logo {
+  width: 100%;
   max-width: 520px; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
 }
