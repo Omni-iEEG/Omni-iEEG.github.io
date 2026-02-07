@@ -326,11 +326,11 @@ blockquote {
   .navbar-brand img.navbar-logo {
     height: 56px;
     margin-left: -100px;
-    max-width: 100%;
   }
 
   @media (max-width: 767px) {
     .navbar-brand img.navbar-logo {
+      height: 40px;
       margin-left: 0;
     }
   }
