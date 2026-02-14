@@ -23,8 +23,8 @@ institutions:
   - {name: "University of California, Los Angeles <sup>*</sup> Equal Contribution"}
 nav: false
 nav_order: 1
-# dataset_link: https://huggingface.co/datasets/roychowdhuryresearch/Omni-iEEG/tree/main
-# code_link: https://github.com/roychowdhuryresearch/Omni-iEEG/tree/main
+dataset_link: https://huggingface.co/datasets/Omni-iEEG/Omni-iEEG
+code_link: https://github.com/Omni-iEEG/Omni-iEEG
 pdf_link:  https://openreview.net/forum?id=rv9lQpY5cG # omit if you don't have one yet
 ---
 
@@ -132,10 +132,11 @@ video {
   font-size: 1.5em;
   font-weight: bold;
 }
-
 </style>
 <div class="research-section announcement-banner">
-    <strong>Official Dataset, Codebase, and Benchmarks are coming, stay tuned!</strong> 
+  <strong style="color:red !important;">
+    Above are links to a dev dataset/code base. Official Dataset, Codebase, and Benchmarks are coming, stay tuned!
+  </strong>
 </div>
 
 <div class="img-container" style="margin: auto;">
