@@ -20,7 +20,10 @@ authors:
   - {name: "Hiroki Nariai", url: "https://www.uclahealth.org/providers/hiroki-nariai"}
   - {name: "Vwani Roychowdhury", url: "https://www.vwaniroychowdhury.com/"}
 institutions:
-  - {name: "University of California, Los Angeles <sup>*</sup> Equal Contribution"}
+  - {name: "UCLA Samueli School of Engineering"}
+  - {name: "UCLA Mattel Children’s Hospital, David Geffen School of Medicine"}
+  - {name: "Children’s Hospital of Michigan, Wayne State University School of Medicine"}
+  - {name: "<sup>*</sup> Equal Contribution"}
 nav: false
 nav_order: 1
 dataset_link: https://huggingface.co/datasets/Omni-iEEG/Omni-iEEG
