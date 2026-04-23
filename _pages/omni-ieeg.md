@@ -133,11 +133,6 @@ video {
   font-weight: bold;
 }
 </style>
-<div class="research-section announcement-banner">
-  <strong style="color:red !important;">
-    Above are links to a dev dataset/code base. Official Dataset, Codebase, and Benchmarks are coming, stay tuned!
-  </strong>
-</div>
 
 <div class="img-container" style="margin: auto;">
   <img src="{{ '/assets/img/omniieeg/omniieeg.png' | relative_url }}" alt="Omni-iEEG teaser">
