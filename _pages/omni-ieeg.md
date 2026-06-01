@@ -28,6 +28,7 @@ nav: false
 nav_order: 1
 dataset_link: https://huggingface.co/datasets/Omni-iEEG/Omni-iEEG
 code_link: https://github.com/Omni-iEEG/Omni-iEEG
+leaderboard_link: /leaderboard/
 pdf_link:  https://openreview.net/forum?id=rv9lQpY5cG # omit if you don't have one yet
 ---
 
