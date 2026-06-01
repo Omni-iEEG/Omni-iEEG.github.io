@@ -97,6 +97,21 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+              {%- assign show_omni_leaderboard_nav = false -%}
+              {%- if page.url == '/omni-ieeg/' or page.url == '/leaderboard/' -%}
+                {%- assign show_omni_leaderboard_nav = true -%}
+              {%- endif -%}
+              {%- if show_omni_leaderboard_nav -%}
+              <li class="nav-item {% if page.url == '/leaderboard/' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/leaderboard/' | relative_url }}">Leaderboard
+                  {%- if page.url == '/leaderboard/' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              {%- endif -%}
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
