@@ -3,7 +3,7 @@ layout: page-notitle
 title: Leaderboard
 permalink: /leaderboard/
 description: Official Omni-iEEG benchmark baselines from the ICLR 2026 paper.
-nav: true
+nav: false
 nav_order: 1
 ---
 
